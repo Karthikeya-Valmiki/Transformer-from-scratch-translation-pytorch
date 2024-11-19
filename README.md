@@ -3,7 +3,10 @@
 
 ![Transformer Architecture](Transformer_model_arch.png)  
 
-Welcome to the **Transformer Translation Model** project! This repository is a complete and crisp implementation of the Transformer model from the groundbreaking research paper *"Attention Is All You Need"*. Designed with clarity and modularity in mind, this project serves as a perfect starting point for anyone looking to dive deep into the world of Transformers and machine translation.  
+Welcome to the **Transformer Translation Model** project! This repository is a complete and crisp implementation of the Transformer model from the groundbreaking research paper *"Attention Is All You Need"*, where you can build your own transformer **from scratch** and implement it for translation of text. this project serves as a perfect starting point for anyone for Transformers and machine translation.  
+
+I have used a NLP dataset from huggingface called **OPUS_BOOKS** for implementing the translation. 
+Dataset link - https://huggingface.co/datasets/Helsinki-NLP/opus_books/viewer/en-it
 
 ---
 
@@ -11,7 +14,7 @@ Welcome to the **Transformer Translation Model** project! This repository is a c
 
 ### 🔖 Key Files  
 - **`Attention-Is-All-You-Need_paper.pdf`**  
-  The original research paper that revolutionized natural language processing, now at your fingertips!  
+  The copy of original research paper that revolutionized natural language processing!  
 
 - **`Transformer_model_arch.png`**  
   A clear and intuitive visual representation of the Transformer architecture, bringing the paper to life.  
@@ -20,11 +23,11 @@ Welcome to the **Transformer Translation Model** project! This repository is a c
 - **`config.py`**  
   Your one-stop configuration file for all training parameters—epochs, batch size, optimizer settings, and more!  
 
-- **`dataset.py`**  
+- **`dataset_tokenizer.py`**  
   A tokenizer built from scratch to handle preprocessing tasks. Dive in and see how raw data gets transformed into model-ready inputs.  
 
-- **`model.py`**  
-  The heart of the project—an elegant PyTorch implementation of the Transformer model, featuring:  
+- **`Transformer_model.py`**  
+  The heart of the project—a robust PyTorch implementation of the Transformer model, featuring:  
   - Input Embedding  
   - Positional Encoding  
   - Add & Norm Layers  
@@ -32,14 +35,14 @@ Welcome to the **Transformer Translation Model** project! This repository is a c
   - Multi-Head Attention Mechanisms  
   - Encoder and Decoder Blocks  
 
-- **`train.py`**  
+- **`Training.py`**  
   The training framework, equipped with a greedy decoding mechanism for predictions.  
 
-- **`translate.py`**  
+- **`translate_trial.py`**  
   A plug-and-play script to test translations for any input sentence and target language.  
 
-- **`Beam_Search.ipynb`**  
-  Test and compare the Beam Search decoder for enhanced translation accuracy.  
+- **`Testing.ipynb`**  
+  Test and compare the Beam Search decoder and Greedy decoder for enhanced translation accuracy.  
 
 ### 📋 Setup Files  
 - **`requirements.txt`**  
@@ -56,13 +59,13 @@ Welcome to the **Transformer Translation Model** project! This repository is a c
 ## ✨ Features  
 
 - **Transformer Architecture from Scratch**  
-  Understand the magic of Transformers by building it step by step.  
+  Understanding of Transformers by building it step by step.  
 
 - **End-to-End Training and Testing**  
   From tokenization to translation, all you need is here!  
 
 - **Greedy and Beam Search Decoding**  
-  Experiment with different decoding methods and their impact on translation quality.  
+  Experimentation with different decoding methods and their impact on translation quality.  
 
 - **Modular and Extensible**  
   Each component is neatly separated for easy understanding and customization.  
