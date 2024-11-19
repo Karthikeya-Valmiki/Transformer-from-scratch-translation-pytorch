@@ -1,7 +1,5 @@
 
-# 🚀 Transformer Translation Model - From Scratch in PyTorch  
-
-![Transformer Architecture](Transformer_model_arch.png)  
+# Transformer Translation Model - From Scratch in PyTorch  
 
 Welcome to the **Transformer Translation Model** project! This repository is a complete and crisp implementation of the Transformer model from the groundbreaking research paper *"Attention Is All You Need"*, where you can build your own transformer **from scratch** and implement it for translation of text. this project serves as a perfect starting point for anyone for Transformers and machine translation.  
 
@@ -92,6 +90,8 @@ Dataset link - https://huggingface.co/datasets/Helsinki-NLP/opus_books/viewer/en
 ---
 
 ## 📘 References  
+
+![Transformer Architecture](Transformer_model_arch.png)  
 
 - *Attention Is All You Need* - Dive into the foundational research with [this paper](Attention-Is-All-You-Need_paper.pdf).  
 
