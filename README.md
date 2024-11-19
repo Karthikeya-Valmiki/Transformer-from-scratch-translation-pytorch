@@ -100,7 +100,3 @@ Dataset link - https://huggingface.co/datasets/Helsinki-NLP/opus_books/viewer/en
 ## 🧑‍💻 Author  
 
 **Karthikeya Valmiki**  
-
-```  
-
-This version adds some excitement while retaining clarity. Let me know if you’d like further refinements!
