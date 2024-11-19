@@ -46,16 +46,15 @@ Clear modular structure for easy extension and understanding.
 Clone this repository:
 
 bash
-Copy code
 git clone https://github.com/username/transformer-pytorch-translation.git
 cd transformer-pytorch-translation
 
 
 Install the dependencies:
 
-bash
-Copy code
+for requirements
 pip install -r requirements.txt
+
 
 **Author**
 Karthikeya Valmiki
